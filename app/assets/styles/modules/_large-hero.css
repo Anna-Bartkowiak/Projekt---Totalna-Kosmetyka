@@ -1,0 +1,28 @@
+.large-hero {
+ 	position: relative;
+
+ 	&__text-content {
+ 	position: absolute;
+ 	top: 50%;
+ 	transform: translateY(-50%);
+ 	left: 0;
+ 	width: 100%;
+ 	text-align: center;
+	}
+
+	&__title {
+	 	font-size: 3rem;
+	 	text-transform: uppercase;
+	 	margin: 0;
+	 	text-shadow: 2px 2px 0 rgba(0, 0, 0, .2);
+	 	max-width: 45.3125rem;
+	 	margin-left: auto;
+	 	margin-right: auto;
+	}
+
+	&__subtitle {
+	 	font-size: 1.625rem;
+	 	/*margin: 0;*/
+	 	text-shadow: 2px 2px 0 rgba(0, 0, 0, .2)
+	}
+ }

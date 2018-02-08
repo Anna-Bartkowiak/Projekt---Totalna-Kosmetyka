@@ -1,0 +1,22 @@
+.btn {
+	background-color: inherit;
+	border: 1px $mainPurple solid;
+	color: $mainPurple;
+	text-decoration: none;
+	padding: .5rem 1rem;
+	display: inline-block;
+
+	&--large {
+		background-color: $mainPurple;
+		color: $mainWhite;
+		font-size: 1.125rem;
+		width: 13.75rem;
+		padding: .75rem 1.2rem;
+		margin: 30px 8px 8px 8px;
+	}
+
+	&--grey {
+		background-color: inherit; 
+		text-shadow: 2px 2px 0 rgba(0, 0, 0, .4);
+	}
+}
