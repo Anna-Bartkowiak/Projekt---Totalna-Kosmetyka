@@ -1,0 +1,35 @@
+.headline {
+	font-size: 2.3rem;
+	color: $mainPurple;
+
+	&--centered {
+		text-align: center;
+	}
+
+	&--white {
+		color: $mainWhite;
+	}
+
+	&--small {
+		font-size: 1.625rem;
+	}
+
+	&--smaller {
+		font-size: 1.5rem;
+	}
+
+	&--margin-large {
+		margin-top: .5em;
+	}
+
+	&--margin-small {
+		margin-bottom: .75em;
+		margin-top: .75em;
+	}
+
+
+/*właściwość do ustawienia dla p*/
+	/*strong {
+		font-weight: 300;
+	}*/
+}

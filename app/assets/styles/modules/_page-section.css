@@ -1,0 +1,11 @@
+.page-section {
+	padding: 1.375rem 0;
+
+	@mixin atSmall {
+		padding: 2rem 0;
+	}
+
+	&--purple {
+		background-color: $mainPurple;
+	}
+}

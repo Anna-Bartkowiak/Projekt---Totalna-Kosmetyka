@@ -1,22 +1,39 @@
 .btn {
 	background-color: inherit;
 	border: 1px $mainPurple solid;
+	border-radius: 3px;
+	width: 8rem;
 	color: $mainPurple;
 	text-decoration: none;
-	padding: .5rem 1rem;
+	padding: .5rem .2rem;
 	display: inline-block;
+	text-align: center;
 
 	&--large {
 		background-color: $mainPurple;
 		color: $mainWhite;
-		font-size: 1.125rem;
-		width: 13.75rem;
-		padding: .75rem 1.2rem;
-		margin: 30px 8px 8px 8px;
+		font-size: .8rem;
+		width: 10rem;
+		padding: .6rem .8rem;
+		margin: 20px 4px 0px 4px;
+
+		@mixin atSmall {
+	 		font-size: 1.125rem;
+	 		width: 13.75rem;
+			padding: .75rem 1.2rem;
+			margin: 30px 8px 8px 8px;
+	 	}
+
+	 	/*@mixin atMedium {
+	 		font-size: 1.125rem;
+	 	}*/
 	}
 
 	&--grey {
-		background-color: inherit; 
-		text-shadow: 2px 2px 0 rgba(0, 0, 0, .4);
+		/*background-color: inherit;*/ 
+		color: $mainWhite;
+		text-shadow: 2px 2px 0 rgba(0, 0, 0, .3);
+		width: 5rem;
+		/*display: inline-block;*/
 	}
 }
