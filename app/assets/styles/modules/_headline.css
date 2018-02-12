@@ -46,9 +46,11 @@
 
 	&--smaller {
 		font-size: 1rem;
+		margin-top: 1.5em;
 
 		@mixin atSmall {
 			font-size: 1.2rem;
+			margin-top: 1.875em;
 		}
 
 		@mixin atMedium {
@@ -57,7 +59,7 @@
 	}
 
 	&--margin-small {
-		margin-bottom: 0;
+		margin-bottom: .5em;
 		margin-top: 1em;
 
 		@mixin atMedium {
