@@ -460,6 +460,11 @@ img {
 	height: auto;
 }
 
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
 .large-hero {
 	border-bottom: 5px solid #855876;
  	position: relative;
@@ -522,10 +527,27 @@ img {
 	width: 8rem;
 	color: #855876;
 	text-decoration: none;
-	padding: .5rem .2rem;
+	padding: .5rem .1rem;
+	margin: 0 4px 20px 4px;
 	display: inline-block;
 	text-align: center;
+	-webkit-box-sizing: content-box;
+	        box-sizing: content-box;
 }
+
+@media (min-width: 530px) {
+
+.btn {
+		margin: 10px 30px 50px 30px
+}
+	}
+
+@media (min-width: 800px) {
+
+.btn {
+		margin: 10px 30px 20px 0px
+}
+	}
 
 .btn--large {
 		background-color: #855876;
@@ -558,7 +580,15 @@ img {
 		/*display: inline-block;*/
 	}
 
+@media (min-width: 800px) {
+
+.btn--left {
+			display: block
+	}
+	}
+
 .wrapper {
+	overflow: hidden;
 	padding-left: 16px;
 	padding-right: 16px;
 	max-width: 1200px;
@@ -605,6 +635,13 @@ img {
 @media (min-width: 530px) {
 
 .headline {
+		font-size: 1.8rem
+}
+	}
+
+@media (min-width: 800px) {
+
+.headline {
 		font-size: 2.3rem
 }
 	}
@@ -624,6 +661,13 @@ img {
 @media (min-width: 530px) {
 
 .headline--small {
+			font-size: 1.4rem
+	}
+	}
+
+@media (min-width: 800px) {
+
+.headline--small {
 			font-size: 1.625rem
 	}
 	}
@@ -635,15 +679,118 @@ img {
 @media (min-width: 530px) {
 
 .headline--smaller {
+			font-size: 1.2rem
+	}
+	}
+
+@media (min-width: 800px) {
+
+.headline--smaller {
 			font-size: 1.5rem
 	}
 	}
 
 .headline--margin-small {
 		margin-bottom: 0;
-		margin-top: .75em;
+		margin-top: 2em;
 	}
 
 .headline--margin-large {
 		margin-top: 0;
+	}
+
+.row::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+
+@media (min-width: 530px) {
+
+.row--gutters {
+			margin-right: -20px
+	}
+	}
+
+@media (min-width: 800px) {
+
+.row--gutters {
+			margin-right: -36px
+	}
+	}
+
+/*padding-right: 0;*/
+
+@media (min-width: 530px) {
+
+.row--gutters > div {
+			padding-right: 20px
+	}
+	}
+
+@media (min-width: 800px) {
+
+.row--gutters > div {
+			padding-right: 36px
+	}
+	}
+
+@media (min-width: 800px) {
+		.row__medium-4 {
+			float: left;
+			width: 33.33%;
+		}
+
+		.row__medium-8 {
+			float: left;
+			width: 66.66%;
+		}
+	}
+
+.row__google-maps {
+		position: relative;
+		padding-bottom: 65%;
+		height: 0;
+		overflow: hidden;
+	}
+
+.row__google-maps--iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100% !important;
+			height: 100% !important;
+			border: 0;
+		}
+
+@media (min-width: 530px) {
+
+.row__google-maps {
+			padding-bottom: 50%
+	}
+	}
+
+@media (min-width: 800px) {
+
+.row__google-maps {
+			padding-bottom: 70%
+	}
+	}
+
+@media (min-width: 1200px) {
+
+.row__google-maps {
+			padding-bottom: 50%
+	}
+	}
+
+.row--centered {
+		text-align: center;
+	}
+
+@media (min-width: 800px) {
+
+.row--centered {
+			text-align: left
+	}
 	}

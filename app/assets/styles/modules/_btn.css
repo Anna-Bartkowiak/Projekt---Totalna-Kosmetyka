@@ -5,9 +5,19 @@
 	width: 8rem;
 	color: $mainPurple;
 	text-decoration: none;
-	padding: .5rem .2rem;
+	padding: .5rem .1rem;
+	margin: 0 4px 20px 4px;
 	display: inline-block;
 	text-align: center;
+	box-sizing: content-box;
+
+	@mixin atSmall {
+		margin: 10px 30px 50px 30px;
+	}
+
+	@mixin atMedium {
+		margin: 10px 30px 20px 0px;
+	}
 
 	&--large {
 		background-color: $mainPurple;
@@ -35,5 +45,11 @@
 		text-shadow: 2px 2px 0 rgba(0, 0, 0, .3);
 		width: 5rem;
 		/*display: inline-block;*/
+	}
+
+	&--left {
+		@mixin atMedium {
+			display: block;
+		}
 	}
 }
