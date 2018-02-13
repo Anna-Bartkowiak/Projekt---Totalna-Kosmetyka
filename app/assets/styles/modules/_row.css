@@ -25,10 +25,6 @@
 
 	@mixin atSmall {
 
-		&__medium-3 {
-			float: left;
-			width: 33.33%;
-		}
 		
 		&__medium-6 {
 			float: left;
@@ -37,6 +33,12 @@
 	}
 
 	@mixin atMedium {
+
+		&__medium-3 {
+			float: left;
+			width: 25%;
+		}
+		
 		&__medium-4 {
 			float: left;
 			width: 33.33%;
