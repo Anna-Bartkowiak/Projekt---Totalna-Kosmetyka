@@ -757,6 +757,22 @@ a {
 		margin-top: 0;
 	}
 
+.row {
+
+	/*Begin equal height rules*/
+
+	/*&--equal-height-at-medium {
+		@mixin atMedium {
+			display: flex;
+		}
+
+		& > div {
+			float: none;
+			display: flex;
+		}
+	}*/
+}
+
 .row::after {
 		content: "";
 		clear: both;
