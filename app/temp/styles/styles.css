@@ -606,8 +606,8 @@ a {
 
 .wrapper {
 	overflow: hidden;
-	padding-left: 16px;
-	padding-right: 16px;
+	padding-left: 10px;
+	padding-right: 10px;
 	max-width: 1232px;
 	margin-left: auto;
 	margin-right: auto;
