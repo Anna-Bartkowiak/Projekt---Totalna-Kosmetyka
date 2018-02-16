@@ -12,7 +12,7 @@
 		}
 
 		@mixin atMedium {
-			margin-right: -36px;
+			margin-right: -46px;
 		}
 	}
 
@@ -24,7 +24,7 @@
 		}
 
 		@mixin atMedium {
-			padding-right: 36px;
+			padding-right: 46px;
 		}
 	}
 

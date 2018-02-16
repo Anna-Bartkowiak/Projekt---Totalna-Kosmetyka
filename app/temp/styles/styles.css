@@ -801,7 +801,7 @@ a {
 @media (min-width: 800px) {
 
 .row--gutters {
-			margin-right: -36px
+			margin-right: -46px
 	}
 	}
 
@@ -817,7 +817,7 @@ a {
 @media (min-width: 800px) {
 
 .row--gutters > div {
-			padding-right: 36px
+			padding-right: 46px
 	}
 	}
 
@@ -910,9 +910,10 @@ a {
 		line-height: 1.5;
 		font-size: .9rem;
 		margin-top: 0;
-		padding-right: 1.1em;
-		padding-left: 1.1em;
 	}
+
+/*padding-right: 1.1em;
+		padding-left: 1.1em;*/
 
 @media (min-width: 800px) {
 
