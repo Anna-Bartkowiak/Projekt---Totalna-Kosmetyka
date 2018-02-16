@@ -1,0 +1,16 @@
+.site-footer {
+	background-color: $mainPurple;
+	text-align: center;
+	font-size: .9rem;
+	font-weight: 300;
+
+	a {
+		color: $mainWhite;
+		text-decoration: none;
+		font-style: italic;
+	}
+
+	@mixin atMedium {
+		padding: .5em 0;
+	}
+}
