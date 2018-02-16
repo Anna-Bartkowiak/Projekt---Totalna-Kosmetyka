@@ -40,16 +40,14 @@
 	 	}*/
 	}
 
-	&--grey {
-		/*background-color: inherit;*/
-		font-size: .6rem;
-		color: $mainWhite;
-		/*text-shadow: 2px 2px 0 rgba(0, 0, 0, .3);*/
+	/*&--grey {
 		width: 3rem;
-		color: $mainPurple;
 		padding: .3rem .1rem;
-		/*display: inline-block;*/
-	}
+		border: 1px $mainWhite solid;
+		font-size: .6rem;
+		background-color: inherit;
+		color: $mainWhite;
+	}*/
 
 	&--left {
 		@mixin atMedium {
