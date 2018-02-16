@@ -543,7 +543,7 @@ a {
 }
 
 .btn--hover:hover {
-		background: rgba(133, 88, 118, .3);
+		background: rgba(133, 88, 118, .2);
 	}
 
 .btn--hover-contact:hover {
@@ -606,9 +606,9 @@ a {
 
 .wrapper {
 	overflow: hidden;
-	padding-left: 10px;
-	padding-right: 10px;
-	max-width: 1220px;
+	padding-left: 16px;
+	padding-right: 16px;
+	max-width: 1232px;
 	margin-left: auto;
 	margin-right: auto;
 	-webkit-box-sizing: border-box;
