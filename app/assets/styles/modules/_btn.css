@@ -12,6 +12,15 @@
 	text-align: center;
 	box-sizing: content-box;
 
+	&--hover:hover {
+		background: rgba(133, 88, 118, .3);
+	}
+
+	&--hover-contact:hover {
+		background: $mainPurple;
+		color: $mainWhite;
+	}
+
 	@mixin atSmall {
 		margin: 10px 30px 50px 30px;
 	}

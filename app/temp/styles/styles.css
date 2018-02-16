@@ -542,6 +542,15 @@ a {
 	        box-sizing: content-box;
 }
 
+.btn--hover:hover {
+		background: rgba(133, 88, 118, .3);
+	}
+
+.btn--hover-contact:hover {
+		background: #855876;
+		color: #ffffff;
+	}
+
 @media (min-width: 530px) {
 
 .btn {
